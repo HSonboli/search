@@ -73,17 +73,20 @@ body{
     /* padding: 30px 20px 0px 30px; */
 }
 #disapearGuide{
-    margin-right: 20%;
-    color: darkgrey;
+    margin-right: 13%;
+    color: grey;
 }
 
 .formContainer{
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    height: 45vh;
+    height: 27vh;
     /* padding: 40px; */
     
+}
+.formContainer p{
+    font-family: sans-serif
 }
  .what_input{
     display: flex;
@@ -93,7 +96,7 @@ body{
 
 .what_input p{
     margin: 0px 10px;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .disapear p{
@@ -112,23 +115,51 @@ body{
 
     width: 30vw;
     overflow: wrap;
+}
 
+@media screen and (max-width: 1045px) {
+    .disapear,#disapearGuide {
+        display: none !important;
+    }
+    
 }
 .searchBar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 10px;
     
 }
 
 .searchBar input{
     margin: 0px 10px ;
-    padding: 4px;
-    width: 50vw;
+    padding: 6px;
+    width: 44vw;
+    border: 1px solid lightgrey;
+    border-top-color: rgb(181, 181, 181);
 }
-
-
-
-
-
+.emptyspace{
+    width: 22.5vw;
+}
+.button_holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+    width:55vw;
+}
+.button button{
+    padding: 8px 10px ;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: white;
+    border: transparent;
+    border-radius: 2px;
+    background-color:  rgb(86, 86, 224);
+    margin-right: 30px;
+}
 /* Body styling */
