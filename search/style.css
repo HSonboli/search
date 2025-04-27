@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Header */
+.HeaderRight{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: right;
+    min-width: 13vw;
+    margin-right: 20px;
+}
+
+.HeaderRight a{
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.HeaderRight a:hover{
+    text-decoration: underline;
+}
+/*Header End*/
+
+/*Body Styling*/
+.Glogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 9%;
+}
+
+.Glogo img{
+    height: 80px;
+}
+.Glogo p{
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: blue;
+    height: 80px;
+    width: 236px;
+    position: absolute;
+    display: flex;
+    
+}
+
+
+
+.Form__input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.search__bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+    height: 30px;
+    min-width: 600px;
+    margin: auto;
+    padding: 10px;
+}
+.search__bar input{
+    flex: 1;
+    border: none;
+    margin: 0px 10px;
+    outline: none;
+}
+.Form__input button{
+    border: none;
+    background-color: rgba(233, 232, 232, 0.514);
+    border-radius: 3px;
+    margin: 20px 10px;
+    width: 120;
+    padding: 10px;
+    color: rgba(0,0,0,0.8);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;    
+    margin: auto;
+}
+/*End of Body Styling*/
+
+
+
